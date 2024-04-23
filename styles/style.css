@@ -23,8 +23,22 @@
 
 .hero-image {
     width: 100%;
-    background-position: center;    
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.column-3 {
+    float: right;
+    width: 31%;
+    padding: 5px;
+    text-align: center;
+}
+
+.column-4 {
+    float: right;
+    width: 22%;
+    padding: 5px;
+    text-align: center;
 }
