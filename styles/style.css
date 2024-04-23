@@ -1,0 +1,30 @@
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    color: #030000;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4faa04;
+    color: white;
+}
+
+.hero-image {
+    width: 100%;
+    background-position: center;    
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
