@@ -6,21 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Best Product</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 
     <div class="topnav">
-        <img src="./images/Google logo.png" height="50">
-        <a href="#option1">Menu option</a>
-        <a href="#option1">Menu option</a>
-        <a class="active" href="#home">Home</a>
+        <img src="./images/ballon logo.png" height="50">
+        <a class="active" href="#home"> <i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="#option1"><i class="fa fa-fw fa-user"></i> Login</a>
+        <a href="https://aws.amazon.com/"> <i class="fa fa-info-circle" aria-hidden="true"></i>
+            About Us</a>
     </div>
 
     <div class="hero-image">
         <img src="./images/ski_hero.jpg" alt="skihero" width="100%">
         <div class="centered">
-            <h1>Your Unique Selling Proposition (USP)</h1>
+            <h1>Be free in the CLOUD</h1>
         </div>
     </div>
+    <h1 style="text-align: center;">What we do Best</h1>
     <div class="section">
         <div class="column-3">
             <img src="./images/employee-engagement.png" alt="employee-engagement" width="100">
@@ -41,30 +45,34 @@
             </p>
         </div>
     </div>
+
+    <h1 style="text-align: center;">What our clients say</h1>
     <div class="section">
         <div class="column-4">
             <img src="./images/fox.png" alt="fox" width="50">
+            <h4>Testimonial</h4>
             <p>Blanditiis, in esse et sint similique tempora sit
                 suscipit fugiat earum explicabo architecto non. Mollitia, voluptatem ullam!</p>
         </div>
-        <div class="column-4">
-            <img src="./images/elephant.png" alt="elephant" width="50">
-            <p>Blanditiis, in esse et sint similique tempora sit
-                suscipit fugiat earum explicabo architecto non. Mollitia, voluptatem ullam!</p>
-        </div>
+
         <div class="column-4">
             <img src="./images/turtle.png" alt="turtle" width="50">
-            <p>Blanditiis, in esse et sint similique tempora sit
-                suscipit fugiat earum explicabo architecto non. Mollitia, voluptatem ullam!</p>
-        </div>
-        <div class="column-4">
-            <img src="./images/elephant.png" alt="elephant" width="50">
+            <h4>Testimonial</h4>
             <p>Blanditiis, in esse et sint similique tempora sit
                 suscipit fugiat earum explicabo architecto non. Mollitia, voluptatem ullam!</p>
         </div>
     </div>
-    <form action=""></form>
-
+    <div class="section">
+        <form class="column-2">
+            <label for="name" id="name">Name</label>
+            <input type="text" id="name" name="name" required class="form-field">
+            <label for="email" id="email">Email</label>
+            <input type="email" id="email" name="email" required class="form-field">
+            <br>
+            <input type="submit" value="Get your free trial" class="submit-button">
+        </form>
+        <img class="column-2" src="./images/form ballon.png">
+    </div>
     </body>
 
 </html>
