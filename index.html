@@ -12,8 +12,8 @@
 
     <div class="topnav">
         <img src="./images/ballon logo.png" height="50">
-        <a class="active" href="#home"> <i class="fa fa-fw fa-home"></i> Home</a>
-        <a href="#option1"><i class="fa fa-fw fa-user"></i> Login</a>
+        <a class="active" href="index.html"> <i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="./login.html"><i class="fa fa-fw fa-user"></i> Login</a>
         <a href="https://aws.amazon.com/"> <i class="fa fa-info-circle" aria-hidden="true"></i>
             About Us</a>
     </div>
@@ -62,13 +62,15 @@
                 suscipit fugiat earum explicabo architecto non. Mollitia, voluptatem ullam!</p>
         </div>
     </div>
+    <h1 style="text-align: center;">Try it out! </h1>
     <div class="section">
-        <form class="column-2">
-            <label for="name" id="name">Name</label>
-            <input type="text" id="name" name="name" required class="form-field">
-            <label for="email" id="email">Email</label>
-            <input type="email" id="email" name="email" required class="form-field">
-            <br>
+        <form class="column-2 form-style-1">
+            <input type="text" id="name" name="name" required class="form-field" placeholder="Your Name">
+            <input type="email" id="email" name="email" required class="form-field" placeholder="Your Email">
+            <div class="checkbox-container">
+                <input type="checkbox" id="opt-in" name="opt-in" required class="checkbox">
+                <label for="opt-in" class="checkbox-label">Agree to receive emails from US</label>
+            </div> <br>
             <input type="submit" value="Get your free trial" class="submit-button">
         </form>
         <img class="column-2" src="./images/form ballon.png">

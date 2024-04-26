@@ -110,3 +110,24 @@ input[type="submit"]:hover {
     background-color: #0d7ab5;
 }
 
+.form-style-1 {
+    border: 2px solid #ccc; 
+    background-color: #f9f9f9; 
+    padding: 20px; 
+    border-radius: 5px; 
+    width: auto; 
+    max-width: 500px; 
+    margin: auto; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.checkbox-label {
+    margin-left: 8px; 
+    font-size: smaller;
+}

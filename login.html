@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="topnav">
+        <img src="./images/ballon logo.png" height="50">
+        <a class="active" href="#home"> <i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="#option1"><i class="fa fa-fw fa-user"></i> Login</a>
+        <a href="https://aws.amazon.com/"> <i class="fa fa-info-circle" aria-hidden="true"></i>
+            About Us</a>
+    </div>
+
+    <title>Login Page</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;"> Create your account</h1>
+    <div class="section">
+        <form class="column-2 form-style-1">
+            <input type="text" id="name" name="name" required class="form-field" placeholder="Your Name">
+            <input type="email" id="email" name="email" required class="form-field" placeholder="Your Email">
+            <input type="password" id="password" name="password" required class="form-field" placeholder="Password">
+            <input type="re-password" id="re-password" name="re-password" required class="form-field" placeholder="Repeat Password">
+            <label for="happy" style="font: 1em sans-serif;">How happy are you today?</label>
+            <input type="range" id="happy" name="happy" required class="happy">
+            <hr>
+            <br>
+            <div class="checkbox-container">
+                <input type="checkbox" id="opt-in" name="opt-in" required class="checkbox">
+                <label for="opt-in" class="checkbox-label">I read the Privacy Policy</label>
+            </div>
+            <input type="submit" value="Create Account" class="submit-button">
+        </form>
+    </div>
+</body>
+
+</html>
